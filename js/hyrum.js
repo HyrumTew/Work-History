@@ -17,5 +17,5 @@ function changeFeatured() {
 	else {domNav[1].className = "featured__nav nav__color pull--right"}
 	document.getElementsByClassName("featured__title")[0].innerHTML = images[imageSelector].name
 	document.getElementsByClassName("featured__image")[0].setAttribute("src", images[imageSelector].src)
-	document.getElementsByClassName("featured__link")[0].setAttribute("href", images[imageSelector].href)
+	// document.getElementsByClassName("featured__link")[0].setAttribute("href", images[imageSelector].href)
 }
